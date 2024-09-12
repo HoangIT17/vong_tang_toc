@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="form-container__form">
+            <div class="form-container__intputs">
+                <div class="form-container__intput-box">
+                    <h3 class="form-container__title-name">Name</h3>
+                    <h3 class="form-container__title-name">Phone number</h3>
+                </div>
+                <div class="form-container__intput-box">
+                    <input type="text" class="form-container__intput" placeholder="Le Viet Hoang" required>
+                    <input type="text" class="form-container__intput" placeholder="Phone number" required>            
+                </div>
+                <div class="form-container__intput-boxes">
+                    <h3 class="form-container__title form-container__title-email">Email address</h3>
+                    <input type="email" class="form-container__intput-email" placeholder="xyz123@gmail.com" required>
+                </div>
+            </div>
+            <div class="form-container__scale">
+                <div class="form-container__scale-intro">
+                    <span>From the scale below, please share your experience</span>
+                </div>
+                <div class="form-container__human-icon">
+                    <ul class="form-container__icon">
+                        <li><i class="fa-solid fa-face-tired form-container__icon-face"></i></li>
+                        <li><i class="fa-solid fa-face-frown-open form-container__icon-face"></i></li>
+                        <li><i class="fa-solid fa-face-meh form-container__icon-face form-container__icon-face"></i></li>
+                        <li> <i class="fa-solid fa-face-grin-wide form-container__icon-face"></i></li>
+                        <li><i class="fa-solid fa-face-grin-hearts form-container__icon-face"></i></li>
+                    </ul> 
+                    <ul class="form-container__icon">
+                        <li class="form-container__icon-face-human">Worse</li>
+                        <li class="form-container__icon-face-human">Not good</li>
+                        <li class="form-container__icon-face-human">Fine</li>
+                        <li class="form-container__icon-face-human">Look good</li>
+                        <li class="form-container__icon-face-human">Very Good</li>
+                    </ul>
+                    <div class="form-container__slider">
+                        <input type="range" min="1" max="100" value="50" class="form-container__slider-bar" id="myRange">
+                    </div>
+                </div>
+            </div>
+            <div class="form-container__input-text">
+                <div class="form-container__input-text-box">
+                    <input type="text" class="form-container__text-box-write" placeholder="Type your thoughts...">
+                </div>
+            </div>
+
+            <div class="form-container__btn">
+                <button class="form-container__submit-btn">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
